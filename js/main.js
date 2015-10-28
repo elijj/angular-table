@@ -9,6 +9,7 @@ sortApp.controller('mainController',function($scope,$http){
         // Response parameter will be an object that has a 'data' key
         // Set $scope.data equal to the data returned in your results
         $scope.data = response.data;
+        console.log(response.data);
     });
 });
 	
